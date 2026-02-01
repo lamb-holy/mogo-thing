@@ -1,0 +1,24 @@
+.team {
+    padding-bottom: 80px;
+
+    &__text {
+        @extend %text;
+        padding-bottom: 27px;
+    }
+
+    &__list {
+        @extend %flex;
+    }
+
+    &__name {
+        text-align: center;
+        padding-top: 30px;
+        color: $title-color;
+    }
+
+    &__job {
+        @extend %text;
+        font-style: italic;
+        font-weight: 300;
+    }
+}

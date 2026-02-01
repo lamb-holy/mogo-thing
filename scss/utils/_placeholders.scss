@@ -1,0 +1,11 @@
+%flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+%text {
+    font-size: 15px;
+    font-family: $secondary-font;
+    color: $text-color;
+}

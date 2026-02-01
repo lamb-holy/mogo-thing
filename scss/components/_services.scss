@@ -1,0 +1,26 @@
+.services {
+    padding-block: 68px 100px;
+
+    &__list {
+        @extend %flex;
+        flex-wrap: wrap;
+        row-gap: 100px;
+        column-gap: 70px;
+    }
+
+    &__item {
+        flex-basis: calc((100%-140px)/3);
+        display: flex;
+        gap: 20px;
+    }
+
+    &__title {
+        color: $title-color;
+        padding-bottom: 20px;
+    }
+
+    &__text {
+        @extend %text;
+        line-height: 22px;
+    }
+}

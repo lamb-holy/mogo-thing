@@ -1,0 +1,21 @@
+.header {
+    padding-block: 17px 12px;
+
+    &__container {
+        @extend %flex;
+    }
+
+    &__logo {
+        color: #95E1D3;
+        font-size: 30px;
+    }
+
+    &__list {
+        display: flex;
+        gap: 55px;
+    }
+
+    &__link {
+        color: $brand-color;
+    }
+}
